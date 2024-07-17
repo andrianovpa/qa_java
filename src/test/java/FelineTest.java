@@ -16,7 +16,6 @@ public class FelineTest {
     @Test
     public void testFelineEatMeat() throws Exception {
         List<String> expected = List.of("Животные", "Птицы", "Рыба");
-
         List<String> actual = feline.eatMeat();
         System.out.println("Ожидаемое значение" + expected);
         System.out.println("Ожидаемое значение" + actual);
