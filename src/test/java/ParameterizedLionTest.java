@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.mockito.Spy;
 
@@ -17,7 +18,7 @@ public class ParameterizedLionTest {
         this.sexType = sexType;
         this.expected = expected;
     }
-    @Spy
+    @Mock
     Feline feline;
     @Before
     public void setUp() {
